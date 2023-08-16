@@ -40,9 +40,9 @@ const App = () => {
         <div className="parent">
           <h1>Parent Component</h1>
           <label htmlFor="">Item Name</label>
-          <input type="text" onChange={handleChange1}/>
+          <input type="text"  id="itemName" onChange={handleChange1}/>
           <label htmlFor="">Item Price</label>
-          <input type="number" onChange={handleChange2}/>
+          <input type="number"  id="itemPrice" onChange={handleChange2}/>
           <button onClick={handleClick}>Add Item</button>
           <div className="child">
             <h1>Child Component</h1>
